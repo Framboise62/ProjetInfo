@@ -25,7 +25,7 @@ public class FenetreJeu extends JFrame{
         this.setSize(1000,800);									// Taille définitive de la fenêtre
         this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);	// Action par défaut à faire à la fermeture
         
-        
+       
         // Placement de la fenêtre au centre de l'écran (source : Phys2D)
         int x = (int) (Toolkit.getDefaultToolkit().getScreenSize().getWidth() - 1000) / 2;
 		int y = (int) (Toolkit.getDefaultToolkit().getScreenSize().getHeight() - 800) / 2;
